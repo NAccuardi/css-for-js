@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Add styles here! */
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+html {
+  font-size: 18px;
+}
+header{  border-bottom: 8px solid hsl(0, 0%, 30%)}
+
+.max-width-wrapper {max-width: 800px;
+margin: 0 auto;}
+
+.intro-chunk{
+  max-width: 300px;
+  padding: 96px 0;
+
+}
+
+main{background:hsl(0, 0%, 60%);padding: 96px 0 }
+
+.intro-chunk strong{
+  color: hsl(160, 100%, 30%)}
+
+.card{background: white; padding: 24px; margin: -24px; border-bottom: 8px solid hsl(0, 0%, 30%)}
+.card p:last-child{margin-bottom: 0}
+
+.indented-heading {
+  width: fit-content;
+  padding: 16px 32px;
+  margin-top:-16px;
+  margin-left:-32px;
+  text-align: center;
+  background: hsl(45, 100%, 50%);
+border-bottom: 8px solid hsl(45, 100%, 40%)}
